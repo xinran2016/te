@@ -1,0 +1,40 @@
+/* pages/cates/cates.wxss */
+@import "../index/index.wxss";
+.container{
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+  justify-content: center; 
+  align-items: flex-end;
+  /* align-content: flex-end; */
+
+  width: 750rpx;
+  height: 500rpx;
+  background-color: pink;
+  box-sizing: border-box;
+}
+
+.item{
+  background-color: #ff0;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.item1{
+  background-color: #f00;
+  width: 200rpx;
+  height: 100rpx;
+}
+
+.item2{
+  background-color: #f0f;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+@import '/style/font.wxss';
+
+.font-50{
+  font-size: 50px;
+}

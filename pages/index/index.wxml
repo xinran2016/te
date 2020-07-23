@@ -1,0 +1,18 @@
+<view class="search">
+  <view class="search_input">
+    <image src="/images/icon_search@2x.png" />
+    <text>搜索 </text>
+  </view>
+</view>
+<swiper class="" indicator-dots="{{true}}" indicator-color="rgba(0,0,0,.3)" autoplay="{{false}}" interval="1000" duration="1000" circular="{{true}}" bindchange="">
+  <block wx:for="{{[1,2,3,4,5]}}" wx:key="*this">
+    <swiper-item>
+      <image src="/images/banner{{item}}.png" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class="cates">
+  <block wx:for="{{[1,2,3,4,5]}}" wx:key="*this">
+    <image src="/images/icon_index_nav_{{item}}@2x.png" />
+  </block>
+</view>

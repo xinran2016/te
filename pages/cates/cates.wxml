@@ -1,0 +1,8 @@
+<view class="container">
+  <view class="item">1</view>
+  
+</view>
+<block wx:for="{{person}}" wx:key="*this">
+  <text>{{item}}</text>
+</block>
+<view class="iconfont font-50 icon-xue"></view>

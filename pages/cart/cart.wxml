@@ -1,0 +1,16 @@
+<!-- <view bind:tap="clickF" hover-class="parent">
+  <view style="color:{{color}}" data-color="blue" catch:tap="clickF2" class="son">试试点下</view>
+</view> -->
+<!-- <view class="anniu {{style}}" data-te="{{t.pop()}}" bind:tap="clickF3">按钮</view> -->
+<scroll-view class="scroll" scroll-y="{{true}}" bindscrolltolower="getmore" bind:scroll="top" scroll-top="{{top}}" scroll-with-animation="{{true}}">
+  <block wx:for="{{lists}}" wx:for-item="val" wx:key="index">
+    <view>{{ val }}</view>
+    <icon type="info" size="23" color="red"></icon>
+  </block>
+</scroll-view>
+<!-- <view class="anniu  {{style2}}" bind:tap="clickF4">TOP</view> -->
+<view class="share">
+	享
+	<button open-type="share"></button>
+	<text>{{ age }}</text>
+</view>

@@ -1,0 +1,59 @@
+.parent{
+  background-color: #ff0;
+  height: 500rpx;
+}
+
+.son{
+  background-color: #fff;
+}
+
+.anniu{
+  width: 120rpx;
+  height: 80rpx;
+  background-color: #ccc;
+  line-height: 80rpx;
+  text-align: center;
+  border-radius: 20%;
+
+  position: fixed;
+  right: 10rpx;
+  bottom: 120rpx;
+
+  opacity: 0;
+  transition: all 1s;
+}
+
+.now{
+  opacity: 1;
+  transition: all 1s;
+}
+
+.line{
+  border-bottom: 3rpx solid red;
+}
+
+.scroll{
+  height: 800rpx;
+  background-color: #ff0;
+}
+
+.scroll view{
+  height: 50rpx;
+}
+
+
+.share{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  bottom: 100rpx;
+  right: 10rpx;
+}
+.share button{
+ opacity: 0;
+ position: absolute;
+ top: 0;
+ width: 80rpx;
+ height: 80rpx;
+}
